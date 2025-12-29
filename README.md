@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Python Basics</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 4px 6px;
-            border-radius: 4px;
-        }
-    </style>
-</head>
-<body>
 
 <h1>Python</h1>
 <ul>
