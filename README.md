@@ -83,22 +83,22 @@ BASIC PYTHON
 
 Topic -1 : 📌 Data Types in Python
 -
-    - Data types are used to communicate with the Python programming language.
-    - Python mainly understands the following basic data types:
-        1. int
-        2. flaot
-        3. string
+ - Data types are used to communicate with the Python programming language.
+ - Python mainly understands the following basic data types:
+   1. int
+   2. flaot
+   3. string
 
-    - 1️⃣ Integer (int):
-     - Used for whole numbers
-     - Example: x = 10 or y = -5 or z = 0
-    - 2️⃣ Float (float):
-     - Used for decimal numbers
-     - Example: a = 3.14 or b = 10.5 or c = -0.99
-    - 3️⃣ String (str):
-     - Used for text or characters
-     - Written inside single quotes (' ') or double quotes (" ") or triple quotes (''' ''')
-     - Example: name = 'Python' or message = "Hello World" or language = '''Programming'''
+ - 1️⃣ Integer (int):
+ - Used for whole numbers
+ - Example: x = 10 or y = -5 or z = 0
+ - 2️⃣ Float (float):
+ - Used for decimal numbers
+ - Example: a = 3.14 or b = 10.5 or c = -0.99
+ - 3️⃣ String (str):
+ - Used for text or characters
+ - Written inside single quotes (' ') or double quotes (" ") or triple quotes (''' ''')
+ - Example: name = 'Python' or message = "Hello World" or language = '''Programming'''
 
 Topic -2 : 📌 Variables in Python
 -
