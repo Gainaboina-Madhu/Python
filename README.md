@@ -175,4 +175,84 @@ Topic -3 : 📌 Type Conversion in Python
       
 Print Condition:
 -
+ - Step 1: Using a comma(,):
+ - When using commas in print(), Python automatically adds a space between items.
+ - Step 2: Using string concatenation (+):
+ - If you want no extra space, you can use + to concatenate strings
+ - Step 3: Using old-style string formatting (%):
+ - Python allows using format specifiers:(%s → string,%d → integer%f → float)
+ - Step 4: Using f-strings (curly braces {}):
+ - f-strings let you put variables directly inside a string using {}
 
+**Topic - 4: String:**
+ - In Python, a string is a sequence of characters enclosed in quotes
+ - It can include letters, numbers, symbols or spaces
+ - **1. Creating a String :**
+ - Strings can be created using either single ('...') or double ("...") quotes.
+ - **Example**: 'name','123'
+ - **2. String Immutable**
+ - Strings are immutable, which means that they cannot be changed after they are created.
+ - To change a string, you need to create a new string.
+ - **3. Memory Allocation**
+ - Strings are stored in memory as a sequence of characters.
+ - Each character has an index, starting from 0.
+ - **4. Indexing**
+ - You can access each character of a string using indexing.
+ - **Forward Indexing:- Starts from 0,1,2,3 (first character).**
+ - Example: name = "Madhu"
+            print(name[0])  # M
+            print(name[1])  # a
+ - **Backward Indexing:- Starts from -1,-2,-3 (last character).**
+ -  Example: name = "Madhu"
+            print(name[-1])  # u
+            print(name[-2])  # h
+- **5. Slicing and Skipping**
+- get a part of the string using [start:end]
+- Example: name = "Kamal"
+           print(name[0:3])  # mad (from index 0 to 2)
+           print(name[:3])   # mad (from index 0 to 2)
+- **Skipping**
+- You can skip characters using a step [start:end:skip_value]
+-  Example: name = "Kamal"
+            print(name[0:5:2])  # Kml
+- **Built in Function**
+- 1. capitalize(): Converts the first character to uppercase and the remaining characters to lowercase.
+     **Example: text = "python"**
+              **print(text.capitalize()) #output: Python**
+  2. title(): Converts the first letter of each word to uppercase.
+     **Example: "python programming".title()   #output: Python Programming**
+  3. lower(): Converts all characters to lowercase.
+     **Example: "HELLO".lower()   # hello**
+  4. upper(): Converts all characters to uppercase.
+     **Example: "hello".upper()   # HELLO**
+  5. islower(): Checks if all characters are lowercase or not.
+     **Example:  "hello".upper()   # HELLO**
+  6. isupper(): Checks if all characters are uppercase or not.
+     **Example:  "HELLO".isupper()   # True**
+  7. isalpha(): Checks if the string contains only alphabets.
+     **Example:  "Kamal".isalpha()   # True**
+  8. isnumeric(): Checks if the string contains only numbers.
+     **Example:  "123".isnumeric()   # True**
+  9. isalnum(): Checks if the string contains alphabets and numbers.
+     **Example:  "Kamal123".isalnum()   # True**
+  10. startswith(): Checks if the string starts with a given value.
+     **Example:   "Python".startswith("Py")   # True**
+  11. endswith(): Checks if the string ends with a given value.
+     **Example:   "Python".endswith("on")   # True**
+  12. replace(): Replaces one value with another.
+     **Example:   "Hello World".replace("World", "Kamal")**
+  13. Membership Operator (in, not in): Checks if a character or word exists in a string.
+     **Example:   "P" in "Python"   # True**
+  14. count(): Counts how many times a character appears.
+     **Example:   "banana".count("a")   # 3**
+  15. index(): Returns the index position of a character.
+    **Example:   "Python".index("t")   # 2**
+  16. ASCII Concepts – ord() and chr()
+       ord() – Character to ASCII value
+        **Example:   ord("A")   # 65**
+       chr() – ASCII value to Character
+       **Example:   chr(65)    # A**
+  18. split(): Splits a string into a list.
+        **Example:  "Hello World".split()   # ['Hello', 'World']**
+  19. join(): Joins elements of a list into a string.
+       **Example:  " ".join(["Hello", "Kamal"])   # Hello Kamal**
