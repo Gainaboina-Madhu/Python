@@ -206,7 +206,10 @@ Print Condition:
  - It can include letters, numbers, symbols or spaces
  - **1. Creating a String :**
  - Strings can be created using either single ('...') or double ("...") quotes.
- - **Example**: 'name','123'
+       **Example**:
+  
+           str = 'name','123'
+   
  - **2. String Immutable**
  - Strings are immutable, which means that they cannot be changed after they are created.
  - To change a string, you need to create a new string.
@@ -268,6 +271,7 @@ Print Condition:
      
   7. upper(): Converts all characters to uppercase.
        **Example**:
+     
              a="hello"
              print(a.upper())
              output: HELLO
@@ -341,17 +345,19 @@ Print Condition:
     
   20. count(): Counts how many times a character appears.
          **Example**:
+      
              text = "banana"
              print(text.count("a"))
              output: 3
 
-  21. index(): Returns the index position of a character.
+  22. index(): Returns the index position of a character.
           **Example**:
+      
              text = "Python"
              print(text.index("t"))
              output: 2
 
-  22. ASCII Concepts – ord() and chr()
+  23. ASCII Concepts – ord() and chr()
        ord() – Character to ASCII value
           **Example**:
       
@@ -364,7 +370,7 @@ Print Condition:
               chr(65)
               output: A
       
-  23. split(): Splits a string into a list.
+  24. split(): Splits a string into a list.
           **Example**:
       
               text = "Hello World"
@@ -372,8 +378,8 @@ Print Condition:
               output: ['Hello', 'World']
 
   
-  24. join(): Joins elements of a list into a string.
-    **Example**:
+  25. join(): Joins elements of a list into a string.
+          **Example**:
       
               words = ["Hello", "Kamal"]
               print(" ".join(words))
