@@ -117,7 +117,8 @@ Topic -2 : 📌 Variables in Python
  - 4. Variable names are case-sensitive (age, Age, and AGE are different)
       
       **Examples** :
-               name = "John"
+      
+              name = "John"
                _age = 20
                user1 = "Admin"
                total_marks = 450
