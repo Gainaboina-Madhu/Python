@@ -201,7 +201,7 @@ Topic - 4: 📌 Print Condition
  - Step 4: Using f-strings (curly braces {}):
  - f-strings let you put variables directly inside a string using {}
 
-Topic - 4: 📌 Python String
+Topic - 5: 📌 Python String
 -
  - In Python, a string is a sequence of characters enclosed in quotes
  - It can include letters, numbers, symbols or spaces
@@ -229,6 +229,7 @@ Topic - 4: 📌 Python String
                 print(name[1])  # a
        
  - **Backward Indexing:- Starts from -1,-2,-3 (last character).**
+   
      -  **Example**
        
                 name = "Madhu"
@@ -237,6 +238,7 @@ Topic - 4: 📌 Python String
         
 - **5. Slicing and Skipping**
 - get a part of the string using [start:end]
+  
     -  **Example**
       
                name = "Kamal"
@@ -245,6 +247,7 @@ Topic - 4: 📌 Python String
        
 - **Skipping**
 - You can skip characters using a step [start:end:skip_value]
+  
     -   **Example**
     
                name = "Kamal"
@@ -252,91 +255,104 @@ Topic - 4: 📌 Python String
         
 - **Built in Function**
 - 1. capitalize(): Converts the first character to uppercase and the remaining characters to lowercase.
+     
      **Example**:
      
               text = "python"
               print(text.capitalize()) #output: Python
      
-  3. title(): Converts the first letter of each word to uppercase.
+  2. title(): Converts the first letter of each word to uppercase.
+
      **Example**:
 
              text="python programming"
              print(text.title()
              output: Python Programming
      
-  5. lower(): Converts all characters to lowercase.
+  3. lower(): Converts all characters to lowercase.
+
      **Example**:
 
              a="HELLO"
              print(a.lower())
              output: hello
      
-  7. upper(): Converts all characters to uppercase.
+  4. upper(): Converts all characters to uppercase.
+      
        **Example**:
      
              a="hello"
              print(a.upper())
              output: HELLO
      
-  9. islower(): Checks if all characters are lowercase or not.
+  5. islower(): Checks if all characters are lowercase or not.
+
      **Example**:
      
              a="python"
              print(a.islower())
              output: True
      
-  11. isupper(): Checks if all characters are uppercase or not.
+  6. isupper(): Checks if all characters are uppercase or not.
+
      **Example**:
      
              b="python"
              print(b.isupper())
              output: False
       
-  13. isalpha(): Checks if the string contains only alphabets.
-       **Example**:
+  7. isalpha(): Checks if the string contains only alphabets.
+
+     **Example**:
      
              b="python"
              print(b.isalpha())
              output: True
       
-  14. isnumeric(): Checks if the string contains only numbers.
-       **Example**:
+  8. isnumeric(): Checks if the string contains only numbers.
+
+      **Example**:
      
              b="123"
              print(b.isnumeric())
              output: True
       
-  15. isalnum(): Checks if the string contains alphabets and numbers.
-      **Example**:
+  9. isalnum(): Checks if the string contains alphabets and numbers.
+
+     **Example**:
      
              b="abc123"
              print(b.isnumeric())
              output: True
       
-  16. startswith(): Checks if the string starts with a given value.
-        **Example**:
+  10. startswith(): Checks if the string starts with a given value.
+
+      **Example**:
      
              b="Python"
              print(b.startswith("Py"))
              output: True
     
-  17. endswith(): Checks if the string ends with a given value.
-        **Example**:
+  11. endswith(): Checks if the string ends with a given value.
+
+      **Example**:
      
              b="Python"
              print(b.endswith("Py"))
              output: False
     
-  18. replace(): Replaces one value with another.
-        **Example**:
+  12. replace(): Replaces one value with another.
+
+      **Example**:
      
              text="Hello Map"
              print(text.replace("Map", "World"))
              output: "Hello", "World"
     
       
-  19. Membership Operator (in, not in): Checks if a character or word exists in a string.
-         **Example**:
+  13. Membership Operator (in, not in): Checks if a character or word exists in a string.
+
+      **Example**:
      
              text = "Python Programming"
              print("Python" in text)
@@ -345,43 +361,49 @@ Topic - 4: 📌 Python String
                      True
 
     
-  20. count(): Counts how many times a character appears.
-         **Example**:
+  14. count(): Counts how many times a character appears.
+
+      **Example**:
       
              text = "banana"
              print(text.count("a"))
              output: 3
 
-  22. index(): Returns the index position of a character.
-          **Example**:
+  15. index(): Returns the index position of a character.
+
+      **Example**:
       
              text = "Python"
              print(text.index("t"))
              output: 2
 
-  23. ASCII Concepts – ord() and chr()
+  16. ASCII Concepts – ord() and chr()
        ord() – Character to ASCII value
-          **Example**:
+      
+      **Example**:
       
               ord("A")
               output: 65
       
        chr() – ASCII value to Character
-          **Example**:
+      
+      **Example**:
       
               chr(65)
               output: A
       
-  24. split(): Splits a string into a list.
-          **Example**:
+  17. split(): Splits a string into a list.
+
+      **Example**:
       
               text = "Hello World"
               print(text.split())
               output: ['Hello', 'World']
 
   
-  25. join(): Joins elements of a list into a string.
-          **Example**:
+  18. join(): Joins elements of a list into a string.
+      
+      **Example**:
       
               words = ["Hello", "Kamal"]
               print(" ".join(words))
