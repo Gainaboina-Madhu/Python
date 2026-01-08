@@ -143,10 +143,10 @@ Topic -3 : 📌 Type Conversion in Python
  1. Integer to Float (int → float)
 - An integer can be converted into a float using the float() function.
   
-              x = 10            # int
-              y = float(x)      # int to float
-              print(y)          # 10.0
-              print(type(y))    # <class 'float'>
+          x = 10            # int
+          y = float(x)      # int to float
+          print(y)          # 10.0
+          print(type(y))    # <class 'float'>
 
  2. Integer to String (int → str)
 - An integer can be converted into a string using the str() function.
@@ -216,60 +216,168 @@ Print Condition:
  - **4. Indexing**
  - You can access each character of a string using indexing.
  - **Forward Indexing:- Starts from 0,1,2,3 (first character).**
-     - Example: name = "Madhu"
+   
+     - **Example**:
+       
+                name = "Madhu"
                 print(name[0])  # M
                 print(name[1])  # a
+       
  - **Backward Indexing:- Starts from -1,-2,-3 (last character).**
-     -  Example: name = "Madhu"
+     -  **Example**
+       
+                name = "Madhu"
                 print(name[-1])  # u
                 print(name[-2])  # h
+        
 - **5. Slicing and Skipping**
 - get a part of the string using [start:end]
-    - Example: name = "Kamal"
+    -  **Example**
+      
+               name = "Kamal"
                print(name[0:3])  # mad (from index 0 to 2)
                print(name[:3])   # mad (from index 0 to 2)
+       
 - **Skipping**
 - You can skip characters using a step [start:end:skip_value]
-    -  Example: name = "Kamal"
+    -   **Example**
+    
+               name = "Kamal"
                 print(name[0:5:2])  # Kml
+        
 - **Built in Function**
 - 1. capitalize(): Converts the first character to uppercase and the remaining characters to lowercase.
-     **Example: text = "python"**
-              **print(text.capitalize()) #output: Python**
-  2. title(): Converts the first letter of each word to uppercase.
-     **Example: "python programming".title()   #output: Python Programming**
-  3. lower(): Converts all characters to lowercase.
-     **Example: "HELLO".lower()   # hello**
-  4. upper(): Converts all characters to uppercase.
-     **Example: "hello".upper()   # HELLO**
-  5. islower(): Checks if all characters are lowercase or not.
-     **Example:  "hello".upper()   # HELLO**
-  6. isupper(): Checks if all characters are uppercase or not.
-     **Example:  "HELLO".isupper()   # True**
-  7. isalpha(): Checks if the string contains only alphabets.
-     **Example:  "Kamal".isalpha()   # True**
-  8. isnumeric(): Checks if the string contains only numbers.
-     **Example:  "123".isnumeric()   # True**
-  9. isalnum(): Checks if the string contains alphabets and numbers.
-     **Example:  "Kamal123".isalnum()   # True**
-  10. startswith(): Checks if the string starts with a given value.
-     **Example:   "Python".startswith("Py")   # True**
-  11. endswith(): Checks if the string ends with a given value.
-     **Example:   "Python".endswith("on")   # True**
-  12. replace(): Replaces one value with another.
-     **Example:   "Hello World".replace("World", "Kamal")**
-  13. Membership Operator (in, not in): Checks if a character or word exists in a string.
-     **Example:   "P" in "Python"   # True**
-  14. count(): Counts how many times a character appears.
-     **Example:   "banana".count("a")   # 3**
-  15. index(): Returns the index position of a character.
-    **Example:   "Python".index("t")   # 2**
-  16. ASCII Concepts – ord() and chr()
+     **Example**:
+     
+              text = "python"
+              print(text.capitalize()) #output: Python
+     
+  3. title(): Converts the first letter of each word to uppercase.
+     **Example**:
+
+             text="python programming"
+             print(text.title()
+             output: Python Programming
+     
+  5. lower(): Converts all characters to lowercase.
+     **Example**:
+
+             a="HELLO"
+             print(a.lower())
+             output: hello
+     
+  7. upper(): Converts all characters to uppercase.
+       **Example**:
+             a="hello"
+             print(a.upper())
+             output: HELLO
+     
+  9. islower(): Checks if all characters are lowercase or not.
+     **Example**:
+     
+             a="python"
+             print(a.islower())
+             output: True
+     
+  11. isupper(): Checks if all characters are uppercase or not.
+     **Example**:
+     
+             b="python"
+             print(b.isupper())
+             output: False
+      
+  13. isalpha(): Checks if the string contains only alphabets.
+       **Example**:
+     
+             b="python"
+             print(b.isalpha())
+             output: True
+      
+  14. isnumeric(): Checks if the string contains only numbers.
+       **Example**:
+     
+             b="123"
+             print(b.isnumeric())
+             output: True
+      
+  15. isalnum(): Checks if the string contains alphabets and numbers.
+      **Example**:
+     
+             b="abc123"
+             print(b.isnumeric())
+             output: True
+      
+  16. startswith(): Checks if the string starts with a given value.
+        **Example**:
+     
+             b="Python"
+             print(b.startswith("Py"))
+             output: True
+    
+  17. endswith(): Checks if the string ends with a given value.
+        **Example**:
+     
+             b="Python"
+             print(b.endswith("Py"))
+             output: False
+    
+  18. replace(): Replaces one value with another.
+        **Example**:
+     
+             text="Hello Map"
+             print(text.replace("Map", "World"))
+             output: "Hello", "World"
+    
+      
+  19. Membership Operator (in, not in): Checks if a character or word exists in a string.
+         **Example**:
+     
+             text = "Python Programming"
+             print("Python" in text)
+             print("Java" not in text)
+             output: True
+                     True
+
+    
+  20. count(): Counts how many times a character appears.
+         **Example**:
+             text = "banana"
+             print(text.count("a"))
+             output: 3
+
+  21. index(): Returns the index position of a character.
+          **Example**:
+             text = "Python"
+             print(text.index("t"))
+             output: 2
+
+  22. ASCII Concepts – ord() and chr()
        ord() – Character to ASCII value
-        **Example:   ord("A")   # 65**
+          **Example**:
+      
+              ord("A")
+              output: 65
+      
        chr() – ASCII value to Character
-       **Example:   chr(65)    # A**
-  18. split(): Splits a string into a list.
-        **Example:  "Hello World".split()   # ['Hello', 'World']**
-  19. join(): Joins elements of a list into a string.
-       **Example:  " ".join(["Hello", "Kamal"])   # Hello Kamal**
+          **Example**:
+      
+              chr(65)
+              output: A
+      
+  23. split(): Splits a string into a list.
+          **Example**:
+      
+              text = "Hello World"
+              print(text.split())
+              output: ['Hello', 'World']
+
+  
+  24. join(): Joins elements of a list into a string.
+    **Example**:
+      
+              words = ["Hello", "Kamal"]
+              print(" ".join(words))
+              output: Hello Kamal
+
+
+  
