@@ -91,6 +91,7 @@ Topic -1 : 📌 Data Types in Python
 
  - **1️⃣ Integer (int):**
  - Used for whole numbers
+   
        - Example: x = 10 or y = -5 or z = 0
  - **2️⃣ Float (float):**
  - Used for decimal numbers
