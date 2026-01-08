@@ -190,7 +190,7 @@ Topic -3 : 📌 Type Conversion in Python
           print(amount)         # 99.99
           print(type(amount))   # <class 'float'>
       
-Print Condition:
+Topic - 4: 📌 Print Condition
 -
  - Step 1: Using a comma(,):
  - When using commas in print(), Python automatically adds a space between items.
@@ -201,7 +201,7 @@ Print Condition:
  - Step 4: Using f-strings (curly braces {}):
  - f-strings let you put variables directly inside a string using {}
 
-Topic - 4: String:
+Topic - 4: 📌 Python String
 -
  - In Python, a string is a sequence of characters enclosed in quotes
  - It can include letters, numbers, symbols or spaces
