@@ -206,7 +206,8 @@ Print Condition:
  - It can include letters, numbers, symbols or spaces
  - **1. Creating a String :**
  - Strings can be created using either single ('...') or double ("...") quotes.
-       **Example**:
+   
+     - **Example**:
   
            str = 'name','123'
    
