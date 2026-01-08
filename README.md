@@ -127,8 +127,9 @@ Topic -2 : 📌 Variables in Python
  - We can find the memory address of a variable using the built-in id() function.
    
    **Example** :
-               x = 10
-               print(id(x))
+   
+           x = 10
+           print(id(x))
             
            output : 1289
 
