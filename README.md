@@ -117,16 +117,16 @@ Topic -2 : 📌 Variables in Python
  - 4. Variable names are case-sensitive (age, Age, and AGE are different)
       
       **Examples** :
-          - name = "John"
-          - _age = 20
-          - user1 = "Admin"
-          - total_marks = 450
+               name = "John"
+               _age = 20
+               user1 = "Admin"
+               total_marks = 450
             
 **📌 Address of a Variable in Python**
  - In Python, every variable is stored in memory, and each value has a unique address.
  - We can find the memory address of a variable using the built-in id() function.
    
-         **Example** :
+   **Example** :
                x = 10
                print(id(x))
             
