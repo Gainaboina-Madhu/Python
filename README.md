@@ -215,9 +215,11 @@ Topic - 5: 📌 Python String
  - **2. String Immutable**
  - Strings are immutable, which means that they cannot be changed after they are created.
  - To change a string, you need to create a new string.
+   
  - **3. Memory Allocation**
  - Strings are stored in memory as a sequence of characters.
  - Each character has an index, starting from 0.
+   
  - **4. Indexing**
  - You can access each character of a string using indexing.
  - **Forward Indexing:- Starts from 0,1,2,3 (first character).**
@@ -409,5 +411,6 @@ Topic - 5: 📌 Python String
               print(" ".join(words))
               output: Hello Kamal
 
-
-  
+Topic - 5: 📌 Python List
+-
+ -     
