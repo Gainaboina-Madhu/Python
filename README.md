@@ -116,12 +116,12 @@ Topic -2 : 📌 Variables in Python
  - 3. Variable names can contain letters, numbers, and underscores only (no spaces or special characters)
  - 4. Variable names are case-sensitive (age, Age, and AGE are different)
       
-      **Examples** :
+   **Examples** :
       
-              name = "John"
-               _age = 20
-               user1 = "Admin"
-               total_marks = 450
+           name = "John"
+           _age = 20
+           user1 = "Admin"
+           total_marks = 450
             
 **📌 Address of a Variable in Python**
  - In Python, every variable is stored in memory, and each value has a unique address.
@@ -142,39 +142,49 @@ Topic -3 : 📌 Type Conversion in Python
 
  1. Integer to Float (int → float)
 - An integer can be converted into a float using the float() function.
-          x = 10            # int
-          y = float(x)      # int to float
-          print(y)          # 10.0
-          print(type(y))    # <class 'float'>
+  
+              x = 10            # int
+              y = float(x)      # int to float
+              print(y)          # 10.0
+              print(type(y))    # <class 'float'>
 
  2. Integer to String (int → str)
 - An integer can be converted into a string using the str() function.
+  
           num = 25           # int
           text = str(num)    # int to string
           print(text)        # '25'
           print(type(text))  # <class 'str'>
+  
  3. Float to Integer (float → int)
  - A float can be converted into an integer using the int() function
+   
           x = 9.8           # float
           y = int(x)        # float to int
           print(y)          # 9
           print(type(y))    # <class 'int'>
+   
 4. Float to String (float → str)
 - A float can be converted into a string using the str() function.
+  
           price = 99.99       # float
           text = str(price)   # float to string
           print(text)         # '99.99'
           print(type(text))   # <class 'str'>
+  
 5. String to Integer (str → int)
 - A string can be converted into an integer using the int() function.
   -⚠️ The string must contain only numbers.
+  
           num = "50"          # string
           value = int(num)    # string to int
           print(value)        # 50
           print(type(value))  # <class 'int'>
+  
 6. String to Float (str → float)
 - A string can be converted into a float using the float() function.
 - The string can contain decimal numbers.
+  
           price = "99.99"       # string
           amount = float(price) # string to float
           print(amount)         # 99.99
