@@ -95,10 +95,12 @@ Topic -1 : 📌 Data Types in Python
        - Example: x = 10 or y = -5 or z = 0
  - **2️⃣ Float (float):**
  - Used for decimal numbers
+   
        - Example: a = 3.14 or b = 10.5 or c = -0.99
  - **3️⃣ String (str):**
  - Used for text or characters
  - Written inside single quotes (' ') or double quotes (" ") or triple quotes (''' ''')
+   
        - Example: name = 'Python' or message = "Hello World" or language = '''Programming'''
 
 Topic -2 : 📌 Variables in Python
