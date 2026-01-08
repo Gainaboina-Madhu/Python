@@ -121,6 +121,7 @@ Topic -2 : 📌 Variables in Python
 **📌 Address of a Variable in Python**
  - In Python, every variable is stored in memory, and each value has a unique address.
  - We can find the memory address of a variable using the built-in id() function.
+   
      **Example** :
        x = 10
        print(id(x))
