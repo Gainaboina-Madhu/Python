@@ -100,7 +100,7 @@ Topic -1 : 📌 Data Types in Python
  - **3️⃣ String (str):**
  - Used for text or characters
  - Written inside single quotes (' ') or double quotes (" ") or triple quotes (''' ''')
-   
+
        - Example: name = 'Python' or message = "Hello World" or language = '''Programming'''
 
 Topic -2 : 📌 Variables in Python
@@ -115,6 +115,7 @@ Topic -2 : 📌 Variables in Python
  - 2. Variable names cannot start with a number
  - 3. Variable names can contain letters, numbers, and underscores only (no spaces or special characters)
  - 4. Variable names are case-sensitive (age, Age, and AGE are different)
+      
     **Examples** :
       - name = "John"
       - _age = 20
