@@ -423,17 +423,17 @@ Topic - 5: 📌 Python String
 
 - **Indexing** :
 - Forward and Backward indexing
-            - fruits = ["apple", "banana", "cherry"]
-            - fruits[0]   # "apple"
-            - fruits[1]   # "banana"
-            - fruits[-1]  # "cherry" (negative index = from the end)
+                    - fruits = ["apple", "banana", "cherry"]
+                    - fruits[0]   # "apple"
+                    - fruits[1]   # "banana"
+                    - fruits[-1]  # "cherry" (negative index = from the end)
 
 - **Slicing** :
 - slicing creates a new list, not a view.
 - we can access a sequence a characters
-           - nums = [1, 2, 3]
-           - nums[0] = 100
-           - print(nums)   # [100, 2, 3]
+                   - nums = [1, 2, 3]
+                   - nums[0] = 100
+                   - print(nums)   # [100, 2, 3]
   
 - **Built in functions:**
 - append() – add one item to the end
