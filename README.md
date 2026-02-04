@@ -435,10 +435,85 @@ Topic - 5: 📌 Python String
            - nums[0] = 100
            - print(nums)   # [100, 2, 3]
   
-- Built in functions:
+- **Built in functions:**
 - append() – add one item to the end
 - insert() – add at a specific index
 - extend() – add multiple items
 - remove() – by value
 - pop() – by index (returns the item)
 - clear() – remove everything
+
+# Topic - 5: 📌 Python Tuple
+- A tuple is:
+- Ordered → items keep position
+- Immutable → cannot be changed after creation
+- Indexed → access via index
+- Heterogeneous → can store different data types
+         - my_tuple = (1, "apple", 3.14, True)
+         - t = (1, 2, 3)
+         - t = (5,)     # adding a element to tuple
+
+- **Indexing** & **Slicing** :
+           - t = ("a", "b", "c", "d")
+           - t[0]     # 'a'
+           - t[-1]    # 'd'
+           - t[1:3]   # ('b', 'c')
+
+ - **Built in functions:**
+ - count: Counts how many times a value appears in a tuple.
+ - index: Returns the index (position) of the first occurrence of a value.
+
+# Topic - 5: 📌 Python Set
+- A set is:
+- Unordered → no fixed position
+- Mutable → can change after creation
+- No duplicate values
+- Unindexed → no index , no slicing and no skipping.
+
+         - my_set = {1, 2, 3, 4}  #creating a set
+         - s = set([1, 2, 2, 3]) 
+         -  # {1, 2, 3}
+
+-  **Built in functions:**
+- add() – add one element to the set
+- update() – add multiple elements (from list, tuple, set)
+- remove() – remove a specific element (❌ error if not found)
+- discard() – remove a specific element (✅ no error if not found)
+- pop() – remove and return a random element
+- clear() – remove all elements
+- **Set Operations**
+- union() – combine all unique elements
+- intersection() – common elements
+- difference() – elements in first set but not in second
+- symmetric_difference() – elements in either set, but not both
+ 
+# Topic - 5: 📌 Python Dictionary
+- A dictionary (dict) is:
+- Stores data as key : value pairs
+- Unordered (in old Python), insertion-ordered 
+- Mutable
+- Keys must be unique and immutable
+- Values can be any type
+
+         - student = {"name": "Alex","age": 20,"marks": 85}
+         - d = {}                # empty dictionary
+         - d = dict()            # empty dictionary
+         - d.pop("age")          # remove key
+         - d.popitem()           # remove last inserted pair
+         - del d["marks"]        # delete specific key
+         - d.clear()             # remove everything
+- **Built in functions:**
+- keys() – returns all keys
+- values() – returns all values
+- items() – returns key–value pairs
+- get() – safe value access
+- update() – add/update pairs
+- setdefault() – insert key if missing
+- copy() – shallow copy
+
+           - d = {"name": "Alex", "age": 20}
+           - d["city"] = "NY"          # add key-value
+           - d.update({"age": 21})     # update value
+           - removed_value = d.pop("age")  # remove by key
+           - last_item = d.popitem()       # remove last pair
+          
