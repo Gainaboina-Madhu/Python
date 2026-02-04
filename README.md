@@ -424,18 +424,18 @@ Topic - 5: 📌 Python String
 - **Indexing** :
 - Forward and Backward indexing
 - 
-                    - fruits = ["apple", "banana", "cherry"]
-                    - fruits[0]   # "apple"
-                    - fruits[1]   # "banana"
-                    - fruits[-1]  # "cherry" (negative index = from the end)
+            - fruits = ["apple", "banana", "cherry"]
+            - fruits[0]   # "apple"
+            - fruits[1]   # "banana"
+            - fruits[-1]  # "cherry" (negative index = from the end)
 
 - **Slicing** :
 - slicing creates a new list, not a view.
 - we can access a sequence a characters
 - 
-                   - nums = [1, 2, 3]
-                   - nums[0] = 100
-                   - print(nums)   # [100, 2, 3]
+           - nums = [1, 2, 3]
+           - nums[0] = 100
+           - print(nums)   # [100, 2, 3]
   
 - **Built in functions:**
 - append() – add one item to the end
@@ -452,9 +452,9 @@ Topic - 5: 📌 Python String
 - Indexed → access via index
 - Heterogeneous → can store different data types
 - 
-         - my_tuple = (1, "apple", 3.14, True)
-         - t = (1, 2, 3)
-         - t = (5,)     # adding a element to tuple
+           - my_tuple = (1, "apple", 3.14, True)
+           - t = (1, 2, 3)
+           - t = (5,)     # adding a element to tuple
 
 - **Indexing** & **Slicing** :
   
@@ -474,9 +474,9 @@ Topic - 5: 📌 Python String
 - No duplicate values
 - Unindexed → no index , no slicing and no skipping.
 
-         - my_set = {1, 2, 3, 4}  #creating a set
-         - s = set([1, 2, 2, 3]) 
-         -  # {1, 2, 3}
+          - my_set = {1, 2, 3, 4}  #creating a set
+          - s = set([1, 2, 2, 3]) 
+          -  # {1, 2, 3}
 
 -  **Built in functions:**
 - add() – add one element to the set
@@ -499,13 +499,13 @@ Topic - 5: 📌 Python String
 - Keys must be unique and immutable
 - Values can be any type
 
-         - student = {"name": "Alex","age": 20,"marks": 85}
-         - d = {}                # empty dictionary
-         - d = dict()            # empty dictionary
-         - d.pop("age")          # remove key
-         - d.popitem()           # remove last inserted pair
-         - del d["marks"]        # delete specific key
-         - d.clear()             # remove everything
+          - student = {"name": "Alex","age": 20,"marks": 85}
+          - d = {}                # empty dictionary
+          - d = dict()            # empty dictionary
+          - d.pop("age")          # remove key
+          - d.popitem()           # remove last inserted pair
+          - del d["marks"]        # delete specific key
+          - d.clear()             # remove everything
 - **Built in functions:**
 - keys() – returns all keys
 - values() – returns all values
