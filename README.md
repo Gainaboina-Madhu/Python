@@ -423,6 +423,7 @@ Topic - 5: 📌 Python String
 
 - **Indexing** :
 - Forward and Backward indexing
+- 
                     - fruits = ["apple", "banana", "cherry"]
                     - fruits[0]   # "apple"
                     - fruits[1]   # "banana"
@@ -431,6 +432,7 @@ Topic - 5: 📌 Python String
 - **Slicing** :
 - slicing creates a new list, not a view.
 - we can access a sequence a characters
+- 
                    - nums = [1, 2, 3]
                    - nums[0] = 100
                    - print(nums)   # [100, 2, 3]
@@ -449,11 +451,13 @@ Topic - 5: 📌 Python String
 - Immutable → cannot be changed after creation
 - Indexed → access via index
 - Heterogeneous → can store different data types
+- 
          - my_tuple = (1, "apple", 3.14, True)
          - t = (1, 2, 3)
          - t = (5,)     # adding a element to tuple
 
 - **Indexing** & **Slicing** :
+  
            - t = ("a", "b", "c", "d")
            - t[0]     # 'a'
            - t[-1]    # 'd'
