@@ -419,14 +419,14 @@ Topic - 5: 📌 Python String
 - Indexed → each item has a number (index)
 - Heterogeneous → can store different data types
 
-        - my_list = [10, "apple", 3.5, True]
+           - my_list = [10, "apple", 3.5, True]
 
 - **Indexing** :
 - Forward and Backward indexing
-           - fruits = ["apple", "banana", "cherry"]
-           - fruits[0]   # "apple"
-           - fruits[1]   # "banana"
-           - fruits[-1]  # "cherry" (negative index = from the end)
+            - fruits = ["apple", "banana", "cherry"]
+            - fruits[0]   # "apple"
+            - fruits[1]   # "banana"
+            - fruits[-1]  # "cherry" (negative index = from the end)
 
 - **Slicing** :
 - slicing creates a new list, not a view.
