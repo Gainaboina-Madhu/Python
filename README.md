@@ -525,11 +525,29 @@ Topic - 5: 📌 Python String
 # Topic - 1: 📌 Python Conditional & Control statements:
 
 # 1. Python Control Statements:
-- **for loop :**
-- 
+- **For Loop :**
+- A for loop is used to iterate over a sequence (list, range, string, etc.).
+- when we know iteartions we use for loop
 
+        for i in range(5):
+            print(i)
+        Output :  0
+                  1
+                  2
+                  3
+                  4       
 
 - **while loop**
+- A while loop keeps running as long as a condition is true.
 
-- 
+        count = 0
+        while count < 5:
+            print(count)
+            count += 1
+        output :  0
+                  1
+                  2
+                  3
+                  4
+  
 
