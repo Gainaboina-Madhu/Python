@@ -531,6 +531,7 @@ Topic - 5: 📌 Python String
 
         for i in range(5):
             print(i)
+  
         Output :  0
                   1
                   2
@@ -544,6 +545,7 @@ Topic - 5: 📌 Python String
         while count < 5:
             print(count)
             count += 1
+  
         output :  0
                   1
                   2
