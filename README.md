@@ -524,4 +524,12 @@ Topic - 5: 📌 Python String
 # Python INTERMEDIATE
 # Topic - 1: 📌 Python Conditional & Control statements:
 
+# 1. Python Control Statements:
+- **for loop :**
+- 
+
+
+- **while loop**
+
+- 
 
