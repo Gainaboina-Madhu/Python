@@ -635,4 +635,8 @@ Topic - 5: 📌 Python String
                 0 apple
                 1 banana
                 2 mango
-                
+
+
+# # Topic - 3: 📌 Functions:
+ - Functions are used for reusability
+ - 
