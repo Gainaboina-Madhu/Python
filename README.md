@@ -547,9 +547,76 @@ Topic - 5: 📌 Python String
             count += 1
   
         output :  0
+
+  
                   1
                   2
                   3
                   4
   
+# 2. Python Conditional Statements:
+ - **if**
+ - The if statement is used to execute a block of code only if a specified condition is true.
+ - The condition is evaluated first.
+ - If the condition is True, the indented block runs.
+ - If False, Python skips the block.
+ - **Syntax:**
 
+           - if condition:
+                # code block
+
+ - **elif**
+ - elif stands for “else if”. It is used to check multiple conditions.
+ - Python checks conditions from top to bottom.
+ - If the first condition is False, it checks the next elif.
+ - Only the first True block executes.
+ - You can use multiple elif statements.
+ - **Syntax:**
+ 
+             - if condition1:
+                # code block 1
+               elif condition2:
+                # code block 2
+   
+ - **else**
+ - The else block executes when none of the above conditions are true.
+ - else does not take a condition.
+ - It acts as a default case.
+ - There can be only one else per if block.
+ - **Syntax:**
+   
+              if condition:
+                # code
+              else:
+                # code
+   
+ - **break**
+ - The break statement is used inside loops to immediately terminate the loop.
+ - When break is executed, the loop stops instantly.
+ - Control moves to the next statement after the loop.
+ - Commonly used in for and while loops.
+ - **Syntax:**
+
+          for variable in sequence:
+            if condition:
+                break
+
+# Example: 
+
+               secret_number = 7
+                while True:
+                    guess = int(input("Enter a number (0 to quit): "))
+    
+                    if guess == 0:
+                        print("You exited the game.")
+                        break
+                
+                    elif guess == secret_number:
+                        print("Congratulations! You guessed correctly.")
+                        break
+                
+                    elif guess > secret_number:
+                        print("Too high! Try again.")
+                
+                    else:
+                        print("Too low! Try again.")
