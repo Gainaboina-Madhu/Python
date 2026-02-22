@@ -491,7 +491,7 @@ Topic - 5: 📌 Python String
 - difference() – elements in first set but not in second
 - symmetric_difference() – elements in either set, but not both
  
-# Topic - 5: 📌 Python Dictionary
+# Topic - 6: 📌 Python Dictionary
 - A dictionary (dict) is:
 - Stores data as key : value pairs
 - Unordered (in old Python), insertion-ordered 
@@ -620,3 +620,8 @@ Topic - 5: 📌 Python String
                 
                     else:
                         print("Too low! Try again.")
+
+# # Topic - 2: 📌 Enumerate:
+ - We can use for str,list,tuple,set,dict
+ - enumerate function it eill permission for to access both index & it's value at a time
+
