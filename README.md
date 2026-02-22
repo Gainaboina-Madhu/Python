@@ -625,3 +625,14 @@ Topic - 5: 📌 Python String
  - We can use for str,list,tuple,set,dict
  - enumerate function it eill permission for to access both index & it's value at a time
 
+         **Example:**
+
+                fruits = ["apple", "banana", "mango"]
+                for index, value in enumerate(fruits):
+                    print(index, value)
+   
+           **OUTPUT** : 
+                0 apple
+                1 banana
+                2 mango
+                
