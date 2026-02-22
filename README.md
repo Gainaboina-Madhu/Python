@@ -562,7 +562,7 @@ Topic - 5: 📌 Python String
  - If False, Python skips the block.
  - **Syntax:**
 
-           - if condition:
+             if condition:
                 # code block
 
  - **elif**
@@ -573,7 +573,7 @@ Topic - 5: 📌 Python String
  - You can use multiple elif statements.
  - **Syntax:**
  
-             - if condition1:
+               if condition1:
                 # code block 1
                elif condition2:
                 # code block 2
