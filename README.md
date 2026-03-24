@@ -640,4 +640,5 @@ Topic - 5: 📌 Python String
 # # Topic - 3: 📌 Functions:
  - Functions are used for reusability
  - **Reusability**: Write code once and use it multiple times.
- - Readability: Code becomes cleaner and easier to understand.
+ - **Readability**: Code becomes cleaner and easier to understand.
+ - **Debugging**: Errors are easier to find and fix when logic is separated.
