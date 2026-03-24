@@ -645,5 +645,5 @@ Topic - 5: 📌 Python String
  - Helps in building large applications
 
       - def function_name(parameters):
-        # Function body
-        return value
+      - #function_body
+      - return value
