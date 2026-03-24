@@ -642,6 +642,7 @@ Topic - 5: 📌 Python String
  - **Reusability**: Write code once and use it multiple times.
  - **Readability**: Code becomes cleaner and easier to understand.
  - **Debugging**: Errors are easier to find and fix when logic is separated.
+ - Functions are created using the **def** keyword
  - Helps in building large applications
  - code:
 
