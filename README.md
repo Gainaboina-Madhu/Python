@@ -640,3 +640,4 @@ Topic - 5: 📌 Python String
 # # Topic - 3: 📌 Functions:
  - Functions are used for reusability
  - Function are used to call the fun
+ - function are used to
