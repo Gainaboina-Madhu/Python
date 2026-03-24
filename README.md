@@ -643,7 +643,9 @@ Topic - 5: 📌 Python String
  - **Readability**: Code becomes cleaner and easier to understand.
  - **Debugging**: Errors are easier to find and fix when logic is separated.
  - Helps in building large applications
+ - code:
 
-      - def function_name(parameters):
-      - #function_body
-      - return value
+      def greet():
+           print("Hello, Welcome to Python Functions!")
+      greet()  # Function calling
+
