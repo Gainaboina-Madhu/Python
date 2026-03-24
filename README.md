@@ -639,5 +639,5 @@ Topic - 5: 📌 Python String
 
 # # Topic - 3: 📌 Functions:
  - Functions are used for reusability
- - Function are used to call the fun
- - function are used to
+ - **Reusability**: Write code once and use it multiple times.
+ - Readability: Code becomes cleaner and easier to understand.
