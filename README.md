@@ -643,6 +643,7 @@ Topic - 5: 📌 Python String
  - **Readability**: Code becomes cleaner and easier to understand.
  - **Debugging**: Errors are easier to find and fix when logic is separated.
  - Functions are created using the **def** keyword
+ - **Executed** by **calling** their **names followed by parentheses.**
  - Helps in building large applications
  - code:
 
@@ -650,3 +651,4 @@ Topic - 5: 📌 Python String
            print("Hello, Welcome to Python Functions!")
       greet()  # Function calling
 
+ - 
