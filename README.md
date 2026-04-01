@@ -668,6 +668,17 @@ Topic - 5: 📌 Python String
   2. parameter function
      -
      - parameter function mean we pass **argument** in that function (when it's calling)
+
+# Local Variables Vs Golbal Variables 
+
+**Local Variable** - 
+ - Variables defined **inside a function.**
+ - That Can only be accessed inside that function.
+ - We cannot access Outside, they don’t exist.
+
+**Golbal Variables** - 
+ - Variables defined **outside any function.**
+ - That Can be accessed anywhere in the file, including inside functions
      
 
  
