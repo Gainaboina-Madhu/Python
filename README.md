@@ -659,13 +659,13 @@ Topic - 5: 📌 Python String
 
 # User Defined Function Types 
 
- - Two Types in User Defined Function
-  # 1. non-parameter function -
+- Two Types in User Defined Function
+1. non-parameter function -
      -
      - non parameter function means we cannot pass anything function(when it's calling)
      - how many time's we call that function that many time's it execute
        
-  # 2. parameter function
+2. parameter function
      -
      - parameter function mean we pass **argument** in that function (when it's calling)
 
