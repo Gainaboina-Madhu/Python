@@ -651,10 +651,17 @@ Topic - 5: 📌 Python String
            print("Hello, Welcome to Python Functions!")
       greet()  # Function calling
 
-   # Function Types
+# Function Types
 
-    - Two Types in functions
-      1. Built in Functions
-      2. User Defined Function
+ - Two Types in functions
+  1. Built in Functions
+  2. User Defined Function
 
- - 
+# User Defined Function Types 
+
+ - Two Types in User Defined Function
+    1. non-parameter function
+    2. parameter function
+
+ 
+ 
