@@ -1,4 +1,3 @@
-
 <h1>Python</h1>
 <ul>
     <li>Python is a high-level, interpreted, and general-purpose programming language.</li>
