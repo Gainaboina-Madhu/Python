@@ -705,6 +705,9 @@ Topic - 5: 📌 Python String
          - print(f(10,20))
          - output - 30
 
+# 1️⃣ map() 
+
+ - map() is used to apply a function to each value in an iterable (list, Series, column).
  - 
  
  
