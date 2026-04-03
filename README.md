@@ -695,7 +695,9 @@ Topic - 5: 📌 Python String
   
 # # Topic - 4: 📌 Lambda:
 
- - lambda function is a ana
+ - lambda function is a anonymous function
+ - **Anonymous function** - means without a function name
+ - **syntax** - **lambda arguments : expressions**
 
  
  
