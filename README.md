@@ -678,7 +678,7 @@ Topic - 5: 📌 Python String
 **Golbal Variables** - 
  - Variables defined **outside any function.**
  - That Can be accessed anywhere in the file.
- - Including inside functions
+ - Including inside functions and outside the function in the file
  - 
      
 
