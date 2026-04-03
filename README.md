@@ -680,6 +680,22 @@ Topic - 5: 📌 Python String
  - That Can be accessed anywhere in the file.
  - Including inside functions and outside the function in the file
      
+# Modularization
+
+ - Building clean, scalable, and maintainable Machine Learning or Python projects.
+ - splitting large code into small, meaningful, reusable modules instead of writing everything in a single file.
+ - A **module** = a single Python file (.py) containing functions, classes, or logic
+
+   
+     - data_preprocessing.py      → Handles missing values, encoding, scaling
+     - feature_engineering.py     → Creates new features
+     - model_training.py          → Trains ML models
+     - model_evaluation.py        → Evaluates metrics
+     - utils.py                   → Helper functions
+  
+# # Topic - 4: 📌 Lambda:
+
+ - lambda function is a ana
 
  
  
