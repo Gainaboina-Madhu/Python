@@ -699,5 +699,12 @@ Topic - 5: 📌 Python String
  - **Anonymous function** - means without a function name
  - **syntax** - **lambda arguments : expressions**
 
+ - **Example** :
+   
+         - f = lambda a,b : a+b
+         - print(f(10,20))
+         - output - 30
+
+ - 
  
  
