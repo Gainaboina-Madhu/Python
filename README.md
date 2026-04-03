@@ -679,7 +679,6 @@ Topic - 5: 📌 Python String
  - Variables defined **outside any function.**
  - That Can be accessed anywhere in the file.
  - Including inside functions and outside the function in the file
- - 
      
 
  
