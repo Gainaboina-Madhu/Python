@@ -737,4 +737,14 @@ Topic - 5: 📌 Python String
        - # Output: [2, 4]
 
 # reduce()
- 
+
+  - combine all elements of an iterable into a single value.
+
+  - **Example**
+
+      - numbers = [1, 2, 3, 4]
+      - result = reduce(lambda acc, x: acc + x, numbers)
+      - print(result)
+      - # Output: 10
+
+
