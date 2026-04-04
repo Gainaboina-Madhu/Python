@@ -739,6 +739,12 @@ Topic - 5: 📌 Python String
 # reduce()
 
   - combine all elements of an iterable into a single value.
+  - 🔹 How It Works
+  - numbers = [1, 2, 3, 4]
+  - Step-by-step execution:
+  - 1 + 2 = 3
+  - 3 + 3 = 6
+  - 6 + 4 = 10
 
   - **Example**
 
