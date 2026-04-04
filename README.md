@@ -705,9 +705,27 @@ Topic - 5: 📌 Python String
          - print(f(10,20))
          - output - 30
 
-# 1️⃣ map() 
+# map() 
 
- - map() is used to apply a function to each value in an iterable (list, Series, column).
- - 
- 
+ - map() is used to **apply a function** to each value in an **iterable** (list, Series, column).
+ - How It Works
+ - Takes each element from the iterable
+ - Applies the function
+ - Returns the result as an iterator
+
+       - def square(x):
+       -     return x * x
+       - numbers = [1, 2, 3, 4] 
+       - result = list(map(square, numbers))
+       - print(result)
+       - # Output: [1, 4, 9, 16]
+
+# filter()
+
+  - select elements from an iterable based on a condition.
+  - How It Works
+Takes each element from the iterable
+Applies the function (condition)
+Keeps only elements where result is True
+Returns an iterator
  
