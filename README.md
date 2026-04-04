@@ -752,5 +752,7 @@ Topic - 5: 📌 Python String
       - result = reduce(lambda acc, x: acc + x, numbers)
       - print(result)
       - # Output: 10
+   
+# # Topic - 5: 📌 File Handlings:
 
 
