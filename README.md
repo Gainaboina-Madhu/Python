@@ -707,7 +707,7 @@ Topic - 5: 📌 Python String
 
 # map() 
 
- - map() is used to **apply a function** to each value in an **iterable** (list, Series, column).
+ - **apply a function to each value in an iterable** (list, Series, column).
  - How It Works
  - Takes each element from the iterable
  - Applies the function
