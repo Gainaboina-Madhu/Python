@@ -723,7 +723,7 @@ Topic - 5: 📌 Python String
 
 # filter()
 
-  - select elements from an iterable based on a condition.
+  - **select elements from an iterable based on a condition.**
   - How It Works
   - Takes each element from the iterable
   - Applies the function (condition)
