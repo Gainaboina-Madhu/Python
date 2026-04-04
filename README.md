@@ -712,6 +712,7 @@ Topic - 5: 📌 Python String
  - Takes each element from the iterable
  - Applies the function
  - Returns the result as an iterator
+ - **Example**
 
        - def square(x):
        -     return x * x
@@ -724,8 +725,16 @@ Topic - 5: 📌 Python String
 
   - select elements from an iterable based on a condition.
   - How It Works
-Takes each element from the iterable
-Applies the function (condition)
-Keeps only elements where result is True
-Returns an iterator
+  - Takes each element from the iterable
+  - Applies the function (condition)
+  - Keeps only elements where result is True
+  - Returns an iterator
+  - **Example**
+
+       - numbers = [1, 2, 3, 4, 5]
+       - result = filter(lambda x: x % 2 == 0, numbers)
+       - print(list(result))
+       - # Output: [2, 4]
+
+# reduce()
  
