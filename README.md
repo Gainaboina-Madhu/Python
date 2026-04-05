@@ -756,4 +756,8 @@ Topic - 5: 📌 Python String
    
 # # Topic - 5: 📌 File Handlings:
 
+  - mode w
+  - mode r
+
+
 
