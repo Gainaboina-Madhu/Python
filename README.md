@@ -7,7 +7,7 @@
 
 <h2>History of Python</h2>
 <ul>
-    <li>Python was created by <strong> **Guido van Rossum** </strong>.</li>
+    <li>Python was created by <strong>Guido van Rossum</strong>.</li>
     <li>Development started in the late <strong>1980s</strong>.</li>
     <li>Python was first released in <strong>1991</strong>.</li>
 </ul>
