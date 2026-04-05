@@ -77,10 +77,10 @@
 </body>
 </html>
 
-BASIC PYTHON
+### BASIC PYTHON
 -
 
-Topic -1 : 📌 Data Types in Python
+# Topic -1 : 📌 Data Types in Python
 -
  - Data types are used to communicate with the Python programming language.
  - Python mainly understands the following basic data types:
@@ -104,7 +104,7 @@ Topic -1 : 📌 Data Types in Python
 
        - Example: name = 'Python' or message = "Hello World" or language = '''Programming'''
 
-Topic -2 : 📌 Variables in Python
+## Topic -2 : 📌 Variables in Python
 -
  - **Variables** are used to **store data** in a program.
  - A variable acts like a container that holds a value.
