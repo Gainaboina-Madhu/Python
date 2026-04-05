@@ -132,16 +132,15 @@ Topic -2 : 📌 Variables in Python
    
            x = 10
            print(id(x))
-            
            output : 1289
 
-Topic -3 : 📌 Type Conversion in Python
+# Topic -3 : 📌 Type Conversion in Python
 -
  - Type conversion means changing one data type into another.
  - 1. Implicit Type Conversion 
  - 2. Explicit Type Conversion
 
- 1. Integer to Float (int → float)
+ 1. **Integer to Float (int → float)**
 - An integer can be converted into a float using the float() function.
   
           x = 10            # int
@@ -149,7 +148,7 @@ Topic -3 : 📌 Type Conversion in Python
           print(y)          # 10.0
           print(type(y))    # <class 'float'>
 
- 2. Integer to String (int → str)
+ 2. **Integer to String (int → str)**
 - An integer can be converted into a string using the str() function.
   
           num = 25           # int
@@ -157,7 +156,7 @@ Topic -3 : 📌 Type Conversion in Python
           print(text)        # '25'
           print(type(text))  # <class 'str'>
   
- 3. Float to Integer (float → int)
+ 3. **Float to Integer (float → int)**
  - A float can be converted into an integer using the int() function
    
           x = 9.8           # float
@@ -165,7 +164,7 @@ Topic -3 : 📌 Type Conversion in Python
           print(y)          # 9
           print(type(y))    # <class 'int'>
    
-4. Float to String (float → str)
+4. **Float to String (float → str)**
 - A float can be converted into a string using the str() function.
   
           price = 99.99       # float
@@ -173,7 +172,7 @@ Topic -3 : 📌 Type Conversion in Python
           print(text)         # '99.99'
           print(type(text))   # <class 'str'>
   
-5. String to Integer (str → int)
+5. **String to Integer (str → int)**
 - A string can be converted into an integer using the int() function.
   -⚠️ The string must contain only numbers.
   
