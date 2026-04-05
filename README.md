@@ -92,10 +92,12 @@ Topic -1 : 📌 Data Types in Python
  - Used for whole numbers
    
        - Example: x = 10 or y = -5 or z = 0
+   
  - **2️⃣ Float (float):**
  - Used for decimal numbers
    
        - Example: a = 3.14 or b = 10.5 or c = -0.99
+   
  - **3️⃣ String (str):**
  - Used for text or characters
  - Written inside single quotes (' ') or double quotes (" ") or triple quotes (''' ''')
@@ -104,7 +106,7 @@ Topic -1 : 📌 Data Types in Python
 
 Topic -2 : 📌 Variables in Python
 -
- - Variables are used to store data in a program.
+ - **Variables** are used to **store data** in a program.
  - A variable acts like a container that holds a value.
  - In Python, you do not need to declare the data type.
  - Python automatically understands the type based on the value.
