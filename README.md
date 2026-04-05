@@ -759,6 +759,6 @@ Topic - 5: 📌 Python String
   - mode w
   - mode r
   - mode
-  - mode
+
 
 
