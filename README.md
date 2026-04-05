@@ -110,7 +110,7 @@ Topic -2 : 📌 Variables in Python
  - Python automatically understands the type based on the value.
 
 **📝 Rules for Naming Variables in Python**
- - 1. Variable names must start with a letter (a–z, A–Z) or an underscore (_)
+ - 1. Variable names must start with a letter **(a–z, A–Z) or an underscore (_)**
  - 2. Variable names cannot start with a number
  - 3. Variable names can contain letters, numbers, and underscores only (no spaces or special characters)
  - 4. Variable names are case-sensitive (age, Age, and AGE are different)
