@@ -181,7 +181,7 @@ Topic -2 : 📌 Variables in Python
           print(value)        # 50
           print(type(value))  # <class 'int'>
   
-6. String to Float (str → float)
+6. **String to Float (str → float)**
 - A string can be converted into a float using the float() function.
 - The string can contain decimal numbers.
   
@@ -190,7 +190,7 @@ Topic -2 : 📌 Variables in Python
           print(amount)         # 99.99
           print(type(amount))   # <class 'float'>
       
-Topic - 4: 📌 Print Condition
+# Topic - 4: 📌 Print Condition
 -
  - Step 1: Using a comma(,):
  - When using commas in print(), Python automatically adds a space between items.
