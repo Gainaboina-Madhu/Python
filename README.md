@@ -762,8 +762,8 @@ Topic - 5: 📌 Python String
   - "w"	     Write (overwrites file)
   - "a"	     Append (adds content)
   - "x"	     Create (fails if file exists)
-   "b"	     Binary mode
-   "t"	     Text mode
+  - "b"	     Binary mode
+  - "t"	     Text mode
 
 
 
