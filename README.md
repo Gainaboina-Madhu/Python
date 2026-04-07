@@ -755,6 +755,7 @@ Topic - 5: 📌 Python String
       - # Output: 10
    
 # # Topic - 5: 📌 File Handlings:
+  - File handling in Python enables you to **work with files** for storing and retrieving data permanently, unlike variables which store data temporarily.
 
   - Mode      	Description
    "r"	     Read (default mode)
