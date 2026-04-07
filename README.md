@@ -759,7 +759,10 @@ Topic - 5: 📌 Python String
   - Mode      	Description
    "r"	     Read (default mode)
    "w"	     Write (overwrites file)
-
+   "a"	     Append (adds content)
+   "x"	     Create (fails if file exists)
+   "b"	     Binary mode
+   "t"	     Text mode
 
 
 
