@@ -758,8 +758,8 @@ Topic - 5: 📌 Python String
   - File handling in Python enables you to **work with files** for **storing and retrieving data permanently**, unlike variables which store data temporarily.
 
   - Mode      	Description
-   "r"	     Read (default mode)
-   "w"	     Write (overwrites file)
+  - "r"	     Read (default mode)
+  - "w"	     Write (overwrites file)
    "a"	     Append (adds content)
    "x"	     Create (fails if file exists)
    "b"	     Binary mode
