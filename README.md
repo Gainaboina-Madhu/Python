@@ -771,6 +771,7 @@ Topic - 5: 📌 Python String
  - means it follows 3 Techniques:
     - technique -1 :
         - if the file is not available mode r is used to create the file and it add the data in that file
+        - 
            
 
 
