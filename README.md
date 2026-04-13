@@ -766,5 +766,9 @@ Topic - 5: 📌 Python String
   - "b"	     Binary mode
   - "t"	     Text mode
 
+# Mode - r:
+
+- means
+
 
 
