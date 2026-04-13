@@ -768,7 +768,9 @@ Topic - 5: 📌 Python String
 
 # Mode - r:
 
-- means
+- means it follows 3 Techniques:
+- technique -1 :
+- 
 
 
 
