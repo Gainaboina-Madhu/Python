@@ -776,3 +776,6 @@ Topic - 5: 📌 Python String
 # - technique -2 :
     - if the file is avialable mode r is used to over ride the data in the existing file
 
+# - technique -3 :
+    - if the file 
+
