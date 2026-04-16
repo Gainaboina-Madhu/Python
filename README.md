@@ -768,7 +768,11 @@ Topic - 5: 📌 Python String
 
 # Mode - r:
 
- - means it follows 3 Techniques:
-    - technique -1 :
-        - if the file is not available mode r is used to create the file and it add the data in that file
-        -
+ # - means it follows 3 Techniques:
+ 
+# - technique -1 :
+    - if the file is not available mode r is used to create the file and it is add the data in that file
+
+# - technique -2 :
+    - if the file is avialable mode r is used to over ride the data in the existing file
+
