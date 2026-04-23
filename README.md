@@ -1,6 +1,6 @@
 <h1>Python</h1>
 <ul>
-    <li>**Python** is a high-level, interpreted , and general-purpose programming language.</li>
+    <li>Python is a high-level, interpreted , and general-purpose programming language.</li>
     <li><strong>Interpreted</strong> means Python code is executed line by line by an interpreter.</li>
     <li>Python does not need to be compiled into machine code before execution.</li>
 </ul>
