@@ -85,8 +85,8 @@
  - Data types are **used to communicate with the Python programming language**.
  - Python mainly understands the following basic data types:
    1. **int**
-   2. flaot
-   3. string
+   2. **flaot**
+   3. **string**
 
  - **1️⃣ Integer (int):**
  - Used for whole numbers
