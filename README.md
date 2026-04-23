@@ -82,7 +82,7 @@
 
 # Topic -1 : 📌 Data Types in Python
 -
- - Data types are used to communicate with the Python programming language.
+ - Data types are **used to communicate with the Python programming language**.
  - Python mainly understands the following basic data types:
    1. int
    2. flaot
