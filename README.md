@@ -109,7 +109,7 @@
  - **Variables** are used to **store data** in a program.
  - **A variable acts like a container that holds a value**.
  - In Python, you do not need to declare the data type.
- - Python automatically understands the type based on the value.
+ - **Python automatically understands the type based on the value**.
 
 **📝 Rules for Naming Variables in Python**
  - 1. Variable names must start with a letter **(a–z, A–Z) or an underscore (_)**
