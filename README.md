@@ -194,7 +194,7 @@
 -
  - **Step 1: Using a comma(,):**
  - When using commas in print(), Python automatically adds a space between items.
- - Step 2: Using string concatenation (+):
+ - **Step 2: Using string concatenation (+):**
  - If you want no extra space, you can use + to concatenate strings
  - Step 3: Using old-style string formatting (%):
  - Python allows using format specifiers:(%s → string,%d → integer%f → float)
