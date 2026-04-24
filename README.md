@@ -196,9 +196,9 @@
  - When using commas in print(), Python automatically adds a space between items.
  - **Step 2: Using string concatenation (+):**
  - If you want no extra space, you can use + to concatenate strings
- - Step 3: Using old-style string formatting (%):
+ - **Step 3: Using old-style string formatting (%):**
  - Python allows using format specifiers:(%s → string,%d → integer%f → float)
- - Step 4: Using f-strings (curly braces {}):
+ - **Step 4: Using f-strings (curly braces {}):**
  - f-strings let you put variables directly inside a string using {}
 
 Topic - 5: 📌 Python String
