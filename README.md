@@ -107,7 +107,7 @@
 ## Topic -2 : 📌 Variables in Python
 -
  - **Variables** are used to **store data** in a program.
- - A variable acts like a container that holds a value.
+ - **A variable acts like a container that holds a value**.
  - In Python, you do not need to declare the data type.
  - Python automatically understands the type based on the value.
 
