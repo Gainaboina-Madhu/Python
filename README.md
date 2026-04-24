@@ -192,7 +192,7 @@
       
 # Topic - 4: 📌 Print Condition
 -
- - Step 1: Using a comma(,):
+ - **Step 1: Using a comma(,):**
  - When using commas in print(), Python automatically adds a space between items.
  - Step 2: Using string concatenation (+):
  - If you want no extra space, you can use + to concatenate strings
