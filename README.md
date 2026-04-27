@@ -271,7 +271,7 @@ Topic - 5: 📌 Python String
              print(text.title()
              output: Python Programming
      
-  3. lower(): Converts all characters to lowercase.
+  3. **lower()**: Converts all characters to lowercase.
 
      **Example**:
 
