@@ -263,7 +263,7 @@ Topic - 5: 📌 Python String
               text = "python"
               print(text.capitalize()) #output: Python
      
-  2. title(): Converts the first letter of each word to uppercase.
+  2. **title()**: Converts the first letter of each word to uppercase.
 
      **Example**:
 
