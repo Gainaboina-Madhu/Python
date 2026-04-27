@@ -279,7 +279,7 @@ Topic - 5: 📌 Python String
              print(a.lower())
              output: hello
      
-  4. upper(): Converts all characters to uppercase.
+  4. **upper()**: Converts all characters to uppercase.
       
        **Example**:
      
