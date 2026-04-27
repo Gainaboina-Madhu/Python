@@ -295,7 +295,7 @@ Topic - 5: 📌 Python String
              print(a.islower())
              output: True
      
-  6. isupper(): Checks if all characters are uppercase or not.
+  6. **isupper()**: Checks if all characters are uppercase or not.
 
      **Example**:
      
