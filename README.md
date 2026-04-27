@@ -777,5 +777,5 @@ Topic - 5: 📌 Python String
     - if the file is avialable mode r is used to over ride the data in the existing file
 
 # - technique -3 :
-    - if the file 
+    - if the file is available mode r is used to update the file in existing file
 
