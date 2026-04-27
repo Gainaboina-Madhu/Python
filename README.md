@@ -256,7 +256,7 @@ Topic - 5: 📌 Python String
                 print(name[0:5:2])  # Kml
         
 - **Built in Function**
-- 1. capitalize(): Converts the first character to uppercase and the remaining characters to lowercase.
+- 1. **capitalize()**: Converts the first character to uppercase and the remaining characters to lowercase.
      
      **Example**:
      
