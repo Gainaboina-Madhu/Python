@@ -779,3 +779,5 @@ Topic - 5: 📌 Python String
 # - technique -3 :
     - if the file is available mode r is used to update the file in existing file
 
+# Mode - a:
+ - rjndhg ohdv
